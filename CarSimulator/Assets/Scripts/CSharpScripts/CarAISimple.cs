@@ -1,3 +1,5 @@
+//this is a non networked AI that can be run without a server - only using this for testing sensors and car
+
 using UnityEngine;
 using System.Collections;
 
