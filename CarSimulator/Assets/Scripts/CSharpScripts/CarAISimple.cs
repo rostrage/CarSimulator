@@ -7,7 +7,9 @@ public class CarAISimple : MonoBehaviour {
 	public Car car;
 	public CarDataCollection carData;
 	public GameObject targetNode; //used for pathfinding
+
 	void Update() {
+		Debug.Log("test");
 		float steer = 0.0f;
 		float throttle = 0.0f;
 		Vector3 distanceVector = targetNode.transform.position-this.transform.position;

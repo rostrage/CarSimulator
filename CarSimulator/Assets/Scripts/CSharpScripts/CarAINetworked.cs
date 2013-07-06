@@ -44,7 +44,7 @@ public class CarAINetworked : MonoBehaviour {
 	void Write() {
 		while(true) {
 			try {
-				sw.WriteLine("{ Hello:  'world' }");
+				sw.WriteLine(carData.sensorData.ToJson());
 				sw.Flush();
 				System.Threading.Thread.Sleep(1); //wait 1ms to send the next chunk of data
 			}
