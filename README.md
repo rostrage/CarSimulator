@@ -14,7 +14,7 @@ Pre-requisites
 --------------
 
 * Unity3D -- Download and install the latest version of Unity 3d at (http://unity3d.com/)
-* Node.js -- Node.js is ONLY needed to run the AI server. Download at (http://nodejs.org/)
+* Node.js -- Node.js is ONLY needed to run the sample AI server. Download at (http://nodejs.org/)
 
 Setup
 -----
@@ -30,5 +30,8 @@ Setup
 7.  Re-open Unity, then choose File -> Open Project...
 8.  Select the folder Car Simulator was pulled to and open the project.
 9.  The current scene used by the Simulator is "Complete Scene"
+10. Start up an AI server (to run the demo server just run node SampleAI.js on the command line).
+11. Select the Car GameObject in the hierarchy inside of Unity.
+12. Edit the server and port to point towards your server(the example is on localhost:3000).
 
 Note: it is currently not known if a opening a new/separate project first is required to properly change the version control setting, but better safe than sorry.
